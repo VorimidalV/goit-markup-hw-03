@@ -1,0 +1,236 @@
+:root {
+  /* font */
+  --main-font: "Roboto", sans-serif;
+  --secondary-font: "Raleway", sans-serif;
+  /* color */
+  --logo-main: #000000;
+  --logo-secondary: #2196f3;
+  --main-color: #ffffff;
+  --text-main: #212121;
+  --text-secondary: #757575;
+  --button-main: #2196f3;
+  --button-secondary: #188ce8;
+  --background-main: #2f303a;
+  --background-secondary: #f5f4fa;
+}
+
+body {
+  font-family: var(--main-font);
+  font-size: 14px;
+  color: var(--text-main);
+  letter-spacing: 0.03em;
+  background-color: var(--main-color);
+}
+
+.link {
+  text-decoration: none;
+}
+
+.list {
+  list-style: none;
+}
+/* -СТУДИЯ- */
+/* HEADER */
+
+.logo {
+  font-family: var(--secondary-font);
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  color: var(--logo-main);
+}
+
+.logo span {
+  color: var(--logo-secondary);
+}
+
+.nav-link,
+.header-mail,
+.header-phone {
+  font-family: var(--main-font);
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--text-main);
+}
+
+.nav-link:hover,
+.header-mail:hover,
+.header-phone:hover {
+  color: var(--button-main);
+}
+
+.header-mail,
+.header-phone {
+  color: var(--text-secondary);
+}
+
+/* MAIN */ /* section "hero" */
+
+.hero {
+  background-color: var(--background-main);
+  letter-spacing: 0.06em;
+  color: var(--main-color);
+}
+
+.hero-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.hero-button {
+  font-family: var(--main-font);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.06em;
+  background-color: var(--logo-secondary);
+  color: var(--main-color);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.hero-button:hover {
+  background: var(--button-secondary);
+}
+
+/* MAIN */ /* section "Peculiarities" */
+
+.peculiarities-title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+}
+
+.peculiarities-text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  color: var(--text-secondary);
+}
+
+/* MAIN */ /* section "What are we doing" */
+
+.doing-title {
+  font-family: var(--main-font);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+}
+
+/* MAIN */ /* section "our team" */
+
+.team {
+  background-color: var(--background-secondary);
+}
+
+.team-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+}
+
+.team-subtitle {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+  text-align: center;
+}
+
+.team-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.18;
+  text-align: center;
+  color: var(--text-secondary);
+}
+
+.team-card {
+  background: var(--main-color);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+}
+
+/* FOOTER */
+
+.footer {
+  background-color: var(--background-main);
+}
+
+.footer .logo {
+  color: var(--main-color);
+}
+
+.footer-contact {
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.71;
+}
+
+.footer-text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  color: var(--main-color);
+}
+
+.footer-link {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.footer-link:hover {
+  color: var(--button-main);
+}
+
+/* -СТУДИЯ- */
+/* portfolio */
+
+.button-text {
+  font-family: var(--main-font);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  cursor: pointer;
+  letter-spacing: 0.03em;
+  background: var(--background-secondary);
+  border-radius: 4px;
+}
+
+.button-text:hover {
+  background: var(--button-main);
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
+  color: var(--main-color);
+}
+
+.card-title {
+  font-family: var(--main-font);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--text-main);
+}
+
+.card-text {
+  font-family: var(--main-font);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.87;
+  color: var(--text-secondary);
+  letter-spacing: 0.03em;
+}
