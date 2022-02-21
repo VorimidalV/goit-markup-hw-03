@@ -133,6 +133,8 @@ body {
 }
 
 .hero-button {
+  border: none;
+  outline: none;
   font-family: var(--main-font);
   font-weight: 700;
   font-size: 16px;
@@ -188,10 +190,6 @@ body {
   margin: 0;
 }
 
-.peculiarities .container {
-  padding: 0;
-}
-
 /* MAIN */ /* section "What are we doing" */
 
 .doing-title {
@@ -201,10 +199,6 @@ body {
   line-height: 1.16;
   text-align: center;
   margin-bottom: 50px;
-}
-
-.doing .container {
-  padding: 0;
 }
 
 .doing-list {
@@ -262,10 +256,6 @@ body {
   margin: 0;
 }
 
-.team .container {
-  padding: 0;
-}
-
 .team-list {
   display: flex;
   justify-content: space-between;
@@ -311,8 +301,7 @@ body {
 }
 
 .footer .section {
-  padding-top: 60px;
-  padding-bottom: 60px;
+  padding: 60px 15px;
 }
 
 .footer-list {
@@ -327,6 +316,8 @@ body {
 /* portfolio */
 
 .button-text {
+  border: none;
+  outline: none;
   font-family: var(--main-font);
   font-weight: 500;
   font-size: 16px;
@@ -336,6 +327,7 @@ body {
   letter-spacing: 0.03em;
   background: var(--background-secondary);
   border-radius: 4px;
+  padding: 6px 22px;
 }
 
 .button-text:hover {
@@ -355,6 +347,10 @@ body {
   color: var(--text-main);
 }
 
+.card-wrap {
+  padding: 20px 24px;
+}
+
 .card-text {
   font-family: var(--main-font);
   font-weight: 400;
@@ -362,4 +358,45 @@ body {
   line-height: 1.87;
   color: var(--text-secondary);
   letter-spacing: 0.03em;
+}
+
+.botton-list {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  margin-top: 0;
+  margin-bottom: 34px;
+  padding: 0;
+}
+
+.portfolio-button {
+  margin-right: 8px;
+}
+
+.portfolio-button:last-child {
+  margin: 0;
+}
+
+.portfolio-cards {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.portfolio-card {
+  margin-right: 30px;
+  margin-bottom: 30px;
+  background: #ffffff;
+  border: 1px solid #eeeeee;
+  box-sizing: border-box;
+}
+
+.portfolio-card:nth-child(3n) {
+  margin-right: 0;
+}
+
+.portfolio-card:nth-child(n + 7) {
+  margin-bottom: 0;
 }
