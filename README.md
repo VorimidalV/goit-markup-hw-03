@@ -1,3 +1,3 @@
-# goit-markup-hw-02
+# goit-markup-hw-03
 
-Выполнение домашней работы по HTML+CSS №2
+Выполнение домашней работы по HTML+CSS №3
