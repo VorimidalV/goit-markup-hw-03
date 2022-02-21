@@ -29,6 +29,19 @@ body {
 .list {
   list-style: none;
 }
+
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.container {
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
 /* -СТУДИЯ- */
 /* HEADER */
 
@@ -65,6 +78,42 @@ body {
   color: var(--text-secondary);
 }
 
+.header-container {
+  display: flex;
+  align-items: center;
+}
+
+.header-wrap {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+}
+
+.nav-list,
+.header-contact {
+  display: flex;
+  align-items: center;
+  padding: 0;
+}
+
+.logo {
+  margin-right: 93px;
+}
+
+.nav-item,
+.contact-list {
+  margin-right: 50px;
+}
+
+.nav-item:last-child,
+.contact-list:last-child {
+  margin: 0;
+}
+
+.header {
+  padding: 24px 0;
+}
+
 /* MAIN */ /* section "hero" */
 
 .hero {
@@ -80,6 +129,7 @@ body {
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
+  padding-bottom: 30px;
 }
 
 .hero-button {
@@ -93,10 +143,18 @@ body {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   cursor: pointer;
+  padding: 10px 32px;
 }
 
 .hero-button:hover {
   background: var(--button-secondary);
+}
+
+.hero-container {
+  padding-top: 200px;
+  padding-bottom: 200px;
+  text-align: center;
+  width: 700px;
 }
 
 /* MAIN */ /* section "Peculiarities" */
@@ -115,6 +173,25 @@ body {
   color: var(--text-secondary);
 }
 
+.peculiarities-list {
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.peculiarities-card {
+  margin-right: 30px;
+}
+
+.peculiarities-card:last-child {
+  margin: 0;
+}
+
+.peculiarities .container {
+  padding: 0;
+}
+
 /* MAIN */ /* section "What are we doing" */
 
 .doing-title {
@@ -123,6 +200,25 @@ body {
   font-size: 36px;
   line-height: 1.16;
   text-align: center;
+  margin-bottom: 50px;
+}
+
+.doing .container {
+  padding: 0;
+}
+
+.doing-list {
+  display: flex;
+  justify-content: space-between;
+  padding: 0;
+}
+
+.doing-photo {
+  margin-right: 30px;
+}
+
+.doing-photo:last-child {
+  margin: 0;
 }
 
 /* MAIN */ /* section "our team" */
@@ -136,6 +232,7 @@ body {
   font-size: 36px;
   line-height: 1.16;
   text-align: center;
+  margin-bottom: 50px;
 }
 
 .team-subtitle {
@@ -158,6 +255,22 @@ body {
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
+  margin-right: 30px;
+}
+
+.team-card:last-child {
+  margin: 0;
+}
+
+.team .container {
+  padding: 0;
+}
+
+.team-list {
+  display: flex;
+  justify-content: space-between;
+  width: 270px;
+  padding: 0;
 }
 
 /* FOOTER */
@@ -168,6 +281,7 @@ body {
 
 .footer .logo {
   color: var(--main-color);
+  margin-bottom: 20px;
 }
 
 .footer-contact {
@@ -181,6 +295,8 @@ body {
   font-size: 14px;
   line-height: 1.71;
   color: var(--main-color);
+  margin-top: 20px;
+  margin-bottom: 9px;
 }
 
 .footer-link {
@@ -192,6 +308,19 @@ body {
 
 .footer-link:hover {
   color: var(--button-main);
+}
+
+.footer .section {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.footer-list {
+  padding-left: 0;
+}
+
+.footer-mail {
+  margin-bottom: 9px;
 }
 
 /* -СТУДИЯ- */
